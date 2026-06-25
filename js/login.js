@@ -5,6 +5,10 @@ const almacenErrores = document.getElementById("errores");
 const formLogin = document.getElementById("formLogin");
 
 
+// git=https://github.com/JavierV205/evalu-2-javascript.git
+
+
+
 //validar usuario
 
 let boton = document.getElementById("btnValidar");
