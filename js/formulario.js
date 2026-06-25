@@ -32,8 +32,10 @@ let guardar = document.addEventListener("click", () => {
     if (nombre === "") {
         errores.push("Debes ingresar el nombre");
     }
-    if (edad === "") {
-        errores.push("Debes ingresar una edad");
+
+    if (edad === "" || edad >= 90 || edad <18) {
+        errores.push("Debes ingresar una edad VALIDA");
+        
     }
     if (fecha === "") {
         errores.push("Debes ingresar una fecha");
